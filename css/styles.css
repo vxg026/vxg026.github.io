@@ -11058,7 +11058,7 @@ text-center mt-0{
   width: 100%;
 }
 .about-me-writing{
-  width:50%;
+  width:94%;
 }
 .row g-0{
   gap:1rem;
@@ -11081,7 +11081,7 @@ bg-light py-5{
 }
 #portfolio{
   /* background-color:#516e60; */
-  height:42rem;
+  height:44rem;
   display:flex;
   align-items: center;
   /* padding-bottom:1rem; */
@@ -11171,4 +11171,32 @@ background-color: #516e60 !important;
 }
 .row.g-0{
 height: fit-content;
+}
+.text-white.mt-0{
+  /* border:2px solid red; */
+}
+.container.px-4.px-lg-5.only{
+/* border: 2px solid red; */
+display:flex;
+/* flex-direction: column; */
+}
+.about-container{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+}
+.img-container{
+  width:27.5rem;
+}
+.img-container img{
+  width: 100%;;
+}
+.resume-btn button{
+  border: 1px solid white;
+  background-color: transparent;
+  color:white;
+  width:10rem;
+  height: 2.5rem;
+  border-radius:2rem;
+
 }
