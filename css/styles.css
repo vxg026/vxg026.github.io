@@ -11073,14 +11073,19 @@ bg-light py-5{
 }
 #contact.page-section{
   background-color:#fff;
+  /* margin-top: 1rem; */
+  padding-top: 3rem;
   box-shadow: 8px 4px 9px 2px gray;
+  /* border:2px solid red; */
 
 }
 #portfolio{
   /* background-color:#516e60; */
-  height:30rem;
+  height:42rem;
   display:flex;
   align-items: center;
+  /* padding-bottom:1rem; */
+  /* border:2px solid red; */
   /* border-bottom: 1px solid gray; */
   box-shadow: 8px 4px 9px 2px gray;
 
@@ -11089,6 +11094,25 @@ bg-light py-5{
   display:flex !important;
   align-items: center;
   justify-content: center;
+}
+.port-desc{
+  /* border:1px solid red; */
+  width: 90%;
+  display:flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.port-desc h6{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  padding:0;
+  margin:0;
+  color:gray;
+}
+.port-desc p{
+color: gray;
+font-weight: 300;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .portfolio-box-caption{
   /* box-shadow: 1px 1px 1px lightgray !important; */
@@ -11130,7 +11154,7 @@ background-color: #516e60 !important;
 .links-for-projects{
   display: flex;
   justify-content: space-between;
-  gap:1rem;
+  gap:2rem;
 }
 .portfolio-box button{
   /* margin-top:1rem; */
@@ -11138,7 +11162,13 @@ background-color: #516e60 !important;
   width: 12rem;
   background-color: white;
   color:gray;
-  height:2.5rem;
-  box-shadow: 2px 2px 2px 2px lightgray;
+  height:3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: light;
+  /* box-shadow: 2px 2px 2px 2px lightgray; */
+  border-radius:3rem;
 
+}
+.row.g-0{
+height: fit-content;
 }
