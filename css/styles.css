@@ -11121,3 +11121,24 @@ gap:.5rem;
 .portfolio-box-caption{
 background-color: #516e60 !important;
 }
+.portfolio-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:1rem;
+}
+.links-for-projects{
+  display: flex;
+  justify-content: space-between;
+  gap:1rem;
+}
+.portfolio-box button{
+  /* margin-top:1rem; */
+  border:.5px solid lightgray;
+  width: 12rem;
+  background-color: white;
+  color:gray;
+  height:2.5rem;
+  box-shadow: 2px 2px 2px 2px lightgray;
+
+}
