@@ -11258,7 +11258,7 @@ font-size:1.7rem;
   font-weight: light;
 }
 .container.px-4.px-lg-5.only{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width:100%;
   display:flex;
   justify-content: space-between;
